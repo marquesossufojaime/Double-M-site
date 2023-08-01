@@ -5,10 +5,10 @@ body {
   }
   
   header {
-    background-color: #333;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     padding: 10px;
-    text-align: center;
+    text-align: left;
   }
   
   .products {
@@ -19,8 +19,8 @@ body {
   }
   
   .product {
-    border: 1px solid #ddd;
-    padding: 50px;
+    border: 2px solid #ddd;
+    padding: 70px;
     text-align: center;
   }
   
@@ -38,21 +38,32 @@ body {
     margin-top: 5px;
   }
   nav{
-    background-color: #1a5c37;
+    background-color: #123aa7;
   color: var(--cor5);
-  box-shadow: 0px 7px 9px black;
+  box-shadow: 14px 7px 9px black;
   padding: 7px 15px;
+  text-align: left;
+  text-decoration: solid;
 
   }
   nav> a {
-    color:#c5ebd6;
+    color:#4e8aa5;
     padding: 10px;
     font-weight: bold;
     border-radius: 5px;
     transition-duration: .4s;
     }
     nav> a:hover{
-      background-color: #2fa866;
-      color: #1a5c37;
+      background-color: #266792;
+      color: #143d5f;
     
     }
+    main>section.videospub{
+    padding: 1px;
+    height: 300px;
+    width: auto;
+     
+    }
+    div.videopub {
+    
+width: 640px;}
