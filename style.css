@@ -64,6 +64,14 @@ body {
     width: auto;
      
     }
-    div.videopub {
+  
     
-width: 640px;}
+    .videopub video {
+      max-width: 100%; /* Define a largura máxima do vídeo para não ultrapassar a largura do contêiner */
+      height: auto; /* Mantém a proporção do vídeo para que ele não fique distorcido */
+     margin: -1% -1%;
+     border-radius: 12px 12px black;
+  }
+  
+
+
