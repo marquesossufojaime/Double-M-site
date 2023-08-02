@@ -2,7 +2,7 @@ body {
   text-align: center;
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 70px;
+    padding: 70px 70px;
     background-color: #f9f9f9;
   }
   
@@ -17,6 +17,7 @@ body {
 
   }
   main>.products{
+    
 
   }
 
@@ -96,20 +97,20 @@ footer{
 
 /* Aplique a animação ao elemento <h2> */
 main>section.whatsapp{
-  background-color: #a8d4e6;
-  padding: ;
+  background-color: #010506;
+  padding: 1px;
   text-align: justify;
 }
 main>section>img{
-  text-size-adjust: 12px;
+  text-size-adjust: 1px;
 }
 main {
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   padding: 20px;
   transition: box-shadow 0.3s, transform 0.3s;
 }
 
-main>section.products:hover {
+main>section.product1:hover {
   box-shadow: 0 2px 4px rgba(44, 100, 255, 0.2);
   transform: scale(1.02);
 }

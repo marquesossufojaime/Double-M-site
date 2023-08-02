@@ -1,18 +1,19 @@
 const products = [
     {
-      name: 'Produto 1',
-      price: 19.99,
-      image: 'logos/logo02 (2).png',
+      name: 'O mercado online mais perto de si',
+      price:0 ,
+      image: 'logos/DM/logo-Double-M2.png',
     },
     {
-      name: 'Produto 2',
-      price: 29.99,
-      image: 'logos/logo01.png',
+      name: 'havainas',
+      price: 1500,
+      image: 'produtos/01.JPG',
     },
     {
-        name: 'Produto 3',
-        price: 29.99,
-        image: 'logos/logo02 (4).png',
+        name: 'Iphone XS 64G',
+        price: 18000,
+        image: 'produtos/iphone xs.JPG',
+        
       },
       {
         name: 'Produto 4',
