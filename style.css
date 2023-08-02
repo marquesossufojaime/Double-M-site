@@ -1,16 +1,24 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #007BFF;
+    padding: 70px;
+    background-color: #f9f9f9;
   }
   
   header {
-    background-color: #ffffff;
-    color: #000000;
-    padding: 10px;
+    background: linear-gradient(to  right, #ffffff, #3f72d2,rgb(15, 80, 154));
+    color: #393838;
+    padding: 17px;
     text-align: left;
+    box-shadow: 6px 7px 12px rgb(9, 33, 87);
+    margin-top: -60px;
+
   }
+  main>.products{
+    
+  }
+
+  
   
   .products {
     display: grid;
@@ -20,9 +28,10 @@ body {
   }
   
   .product {
-    border: 2px solid #ddd;
-    padding: 70px;
+    border: 2px solid #000000;
+    padding: 30px;
     text-align: center;
+    box-shadow: #13607f 12px 12px 12px ;
   }
   
   .product img {
@@ -35,11 +44,11 @@ body {
   }
   
   .product-price {
-    color: #007BFF;
+    color: #000000;
     margin-top: 5px;
   }
   nav{
-    background-color: #123aa7;
+    background: linear-gradient(to  left, #ffffff, #3f72d2,rgb(15, 80, 154));
   color: var(--cor5);
   box-shadow: 14px 7px 9px black;
   padding: 7px 15px;
@@ -48,14 +57,14 @@ body {
 
   }
   nav> a {
-    color:#4e8aa5;
+    color:#ffffff;
     padding: 10px;
     font-weight: bold;
     border-radius: 5px;
     transition-duration: .4s;
     }
     nav> a:hover{
-      background-color: #266792;
+      background-color: #ffffff;
       color: #143d5f;
     
     }
@@ -67,12 +76,24 @@ body {
     }
   
     
-    .videopub video {
-      max-width: 100%; /* Define a largura máxima do vídeo para não ultrapassar a largura do contêiner */
-      height: auto; /* Mantém a proporção do vídeo para que ele não fique distorcido */
-     margin: -1% -1%;
-     border-radius: 12px 12px black;
-  }
+   
+
+footer{
+ background-color: #4858aa;
+ text-align: center;
+ text-transform: capitalize;
+ padding: 50px;
+}
+/* Defina a animação usando @keyframes */
+@keyframes changeColor {
+  0% { color: rgb(0, 0, 0); } /* Cor inicial */
+  50% { color: rgb(100, 100, 211); } /* Cor intermediária */
+  100% { color: rgb(0, 1, 58); } /* Cor final */
+}
+
+/* Aplique a animação ao elemento <h2> */
+
+
   
 
 

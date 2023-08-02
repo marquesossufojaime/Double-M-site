@@ -2,19 +2,34 @@ const products = [
     {
       name: 'Produto 1',
       price: 19.99,
-      image: 'imagens/011.png',
+      image: 'logos/logo02 (2).png',
     },
     {
       name: 'Produto 2',
       price: 29.99,
-      image: 'imagens/011.png',
+      image: 'logos/logo01.png',
     },
     {
-        name: 'Produto 2',
+        name: 'Produto 3',
+        price: 29.99,
+        image: 'logos/logo02 (4).png',
+      },
+      {
+        name: 'Produto 4',
+        price: 29.99,
+        image: 'imagens/011.png',
+      },
+      {
+        name: 'Produto 6',
         price: 29.99,
         image: 'imagens/011.png',
       },
  
+      {
+        name: 'Produto 6',
+        price: 29.99,
+        image: 'imagens/011.png',
+      },
   ];
   
   
