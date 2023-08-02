@@ -1,4 +1,5 @@
 body {
+  text-align: justify;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 70px;
@@ -6,6 +7,7 @@ body {
   }
   
   header {
+    text-align: justify;
     background: linear-gradient(to  right, #ffffff, #3f72d2,rgb(15, 80, 154));
     color: #393838;
     padding: 17px;
