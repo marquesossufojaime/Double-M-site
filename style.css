@@ -15,7 +15,7 @@ body {
 
   }
   main>.products{
-    
+
   }
 
   
@@ -92,6 +92,24 @@ footer{
 }
 
 /* Aplique a animação ao elemento <h2> */
+main>section.whatsapp{
+  background-color: #a8d4e6;
+  padding: ;
+  text-align: justify;
+}
+main>section>img{
+  text-size-adjust: 12px;
+}
+main {
+  background-color: #f2f2f2;
+  padding: 20px;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+main>section.products:hover {
+  box-shadow: 0 2px 4px rgba(44, 100, 255, 0.2);
+  transform: scale(1.02);
+}
 
 
   
